@@ -59,8 +59,10 @@ than - quiting time to get the real somking year(delate unnormal infomation)
 6. collect all part togrther fo unnecessary information 
 7. fill in 0 or 1 for with unecessary no NaN)
 8. find row = NaN , if no NaN, ther will be stay her, or just stop
-9. check other information 
-10 there are lotd of unimportant information, just choose useful imformation
+9. deal with smorking and high blood pressure and hypertension
+10. reorder the index
+11. check other information 
+12 there are lotd of unimportant information, just choose useful imformation
 
 ## how to run
 RIDAGEYR is age, SMD030 is start year for smoking, SMD050Q is the time for quiting smoking to now
@@ -71,6 +73,15 @@ RIDAGEYR is age, BPD035 is start year for hypertension
 RIDAGEYR - BPD035 means the year for hypertension to now
 redelate useless information, just choose useful imformation
 rename this information to better understanding and read
+the average Systolic Blood Pressure
+
+
+## How To Tset
+data -> attributes(!= CVD, target -> CVD)
+show has CVD or not
+x = scaler.fit_transform(data)
+measure the model's recall
+configures Seaborn to enhance the output from Matplotlib.
 80% for training, 20% for testing
 check the number of train and test
 train it by calling the fit method.
@@ -80,17 +91,6 @@ produce a confusion matrix for the model
 quantify the precision of the model
 
 
-## How To Tset
-data -> attributes(!= CVD, target -> CVD)
-show has CVD or not
-x = scaler.fit_transform(data)
-measure the model's recall
-configures Seaborn to enhance the output from Matplotlib.
-
-
 
 ## Maintainers
- # deal with smorking and high blood pressure and hypertension
- # reorder the index
- the average Systolic Blood Pressure
 [RazeenLI](https://github.com/RazeenLI)
