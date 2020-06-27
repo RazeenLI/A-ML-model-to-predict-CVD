@@ -58,30 +58,50 @@ than - quiting time to get the real somking year(delate unnormal infomation)
 5. check whether something lost or not -- Ture
 6. collect all part togrther fo unnecessary information 
 7. fill in 0 or 1 for with unecessary no NaN)
-8. find row = NaN , if no NaN, ther will be stay her, or just stop
-9. deal with smorking and high blood pressure and hypertension
-10. reorder the index
-11. check other information 
+
+RIDEXPRG: Pregnancy status for females between 20 and 44 years of age at the time of MEC exam. 
+DPQ010~090: NaN meams do not have this problem
+BPXDI1~4/BPXSY1~4: mean the different times for checking the blood pressures, 
+if donot have any data in 2~4, make it become 0, same with BPXDI1~4
+SMD030 means the year of smoking, NAN means nevery smoke
+SMQ050Q means time of quit smoking, NAN means nevery smoke or do not quit smoke
+SMD057 how many cigarettes did {you/SP} usually smoke per day, NAN means nevery smoke
+BPD035 the year of high blood pressure, NAN meanns no
+PAD means sport NAN means do not has any sport
+NaN means no pregnancy, which means 0 mounth
+
+check other NAN data
+delate NaN information
+delate unnormal information
+Consolidate data
+find the average Systolic Blood Pressure, Diastolic Blood Pressure
+deal with the most important part, it has MCQ(1) or not(0)
 12 there are lotd of unimportant information, just choose useful imformation
 
-## how to run
+## How To Run
+deal with smorking and high blood pressure and hypertension
+reorder the index
+
 RIDAGEYR is age, SMD030 is start year for smoking, SMD050Q is the time for quiting smoking to now
 RIDAGEYR - SMD030 means the year for smoking to now
+than - quiting time to get the real somking year(delate unnormal infomation)
+f never smok, smokeage = 0
+
 RIDAGEYR is age, DID040 is start year for diabetes
 RIDAGEYR - DID040 means the year for diabetes to now
+
 RIDAGEYR is age, BPD035 is start year for hypertension
 RIDAGEYR - BPD035 means the year for hypertension to now
+
 redelate useless information, just choose useful imformation
 rename this information to better understanding and read
-the average Systolic Blood Pressure
+chek the infomation right or not
 
 
 ## How To Tset
+
 data -> attributes(!= CVD, target -> CVD)
-show has CVD or not
 x = scaler.fit_transform(data)
-measure the model's recall
-configures Seaborn to enhance the output from Matplotlib.
 80% for training, 20% for testing
 check the number of train and test
 train it by calling the fit method.
@@ -89,6 +109,8 @@ predicted the result
 it already get nearly 100% right, generate an ROC AUC score from the probabilities using scikit-learn's roc_auc_score method
 produce a confusion matrix for the model
 quantify the precision of the model
+measure the model's recall
+configures Seaborn to enhance the output from Matplotlib.
 
 
 
