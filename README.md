@@ -3,9 +3,9 @@
 ***
 >#### NOTE!
 >This project is completed at 7:20am 28/06/2020.
-
+>
 >[Profile URL](https://docs.microsoft.com/zh-cn/users/razeenrunzeli-5739/)
-
+>
 >[Project Home](https://github.com/AUMSA/2020-MSA-content/tree/master/AI%20%26%20Advanced%20Analytics)
  
 Machine learning is one of the emerging technologies which has the power to change the world and we would like to enable everyone to harness it power. Hence, in this bootcamp, students from all background will be taught on how to get started with Machine Learning.
@@ -66,9 +66,9 @@ than - quiting time to get the real somking year(delate unnormal infomation)
     
     II.   DPQ010~090: NaN meams do not have this problem
     
-    III.  BPXDI1~4/BPXSY1~4: mean the different times for checking the blood pressures, 
+    III.  BPXDI1-4/BPXSY1-4: mean the different times for checking the blood pressures, 
     
-    IV.   if donot have any data in 2~4, make it become 0, same with BPXDI1~4
+    IV.   if donot have any data in 2-4, make it become 0, same with BPXDI1-4
     
     V.    SMD030 means the year of smoking, NAN means nevery smoke
     
