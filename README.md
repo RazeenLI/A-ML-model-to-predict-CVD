@@ -27,6 +27,7 @@ I hope  I can learn the fundamental ideas behind Machine Learning
 This project uses `Jupyter Notebook`. Go check them out if you don't have them locally installed.
 Or, you can use Jupyter Notebook Online provided by Microsoft Azure
 the data(.csv) have already included in this repository, I you want to find the original source, click [here](https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey?select=questionnaire.csv)
+
 in this program, I also use `pandas` `numpy` `seaborn` `sklearn` `matplotlib`, but I do not check I can works on other mochine or not
  
 ## Idea
@@ -134,10 +135,15 @@ than - quiting time to get the real somking year(delate unnormal infomation)
 ## summary
 
 In the begine I just what to do it by No-Tech way because I did not learn Python before.
+
 But When I dicide to do it, I think I wiil learn Python in the future, so why didn't I choose this opportunity to officially enter the study of Python?
+
 I take one week to learn the basic python course.
+
 during this project, I find the basic knowledge is not enough for me to finish this course, so I use Microsoft learning to learn the ML model.
+
 what I choose is really big enourgh Because I want to deal with the really situation
+
 I want to include all factor in this ML, so I even choose the whether pregnant or not, family size, number of children in family and income, but I delate this information because I think I doas affect the CVD, but not the main part.
 
 ## Maintainers
