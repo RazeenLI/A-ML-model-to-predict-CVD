@@ -3,7 +3,9 @@
 ***
 >#### NOTE!
 >This project is completed at 7:20am 28/06/2020.
+
 >[Profile URL](https://docs.microsoft.com/zh-cn/users/razeenrunzeli-5739/)
+
 >[Project Home](https://github.com/AUMSA/2020-MSA-content/tree/master/AI%20%26%20Advanced%20Analytics)
  
 Machine learning is one of the emerging technologies which has the power to change the world and we would like to enable everyone to harness it power. Hence, in this bootcamp, students from all background will be taught on how to get started with Machine Learning.
@@ -61,14 +63,23 @@ than - quiting time to get the real somking year(delate unnormal infomation)
 07. fill in 0 or 1 for with unecessary no NaN)
 
     I.    RIDEXPRG: Pregnancy status for females between 20 and 44 years of age at the time of MEC exam. 
+    
     II.   DPQ010~090: NaN meams do not have this problem
+    
     III.  BPXDI1~4/BPXSY1~4: mean the different times for checking the blood pressures, 
+    
     IV.   if donot have any data in 2~4, make it become 0, same with BPXDI1~4
+    
     V.    SMD030 means the year of smoking, NAN means nevery smoke
+    
     VI.   SMQ050Q means time of quit smoking, NAN means nevery smoke or do not quit smoke
+    
     VII.  SMD057 how many cigarettes did {you/SP} usually smoke per day, NAN means nevery smoke
+    
     VIII. BPD035 the year of high blood pressure, NAN meanns no
+    
     IX.   PAD means sport NAN means do not has any sport
+    
     X.    NaN means no pregnancy, which means 0 mounth
 
 08. check other NAN data
@@ -82,15 +93,24 @@ than - quiting time to get the real somking year(delate unnormal infomation)
 16. reorder the index
 
     I.    RIDAGEYR is age, SMD030 is start year for smoking, SMD050Q is the time for quiting smoking to now
+    
     II.   RIDAGEYR - SMD030 means the year for smoking to now
+    
     III.  than - quiting time to get the real somking year(delate unnormal infomation)
+    
     IV.   if never smok, smokeage = 0
 
+
     V.    RIDAGEYR is age, DID040 is start year for diabetes
+    
     VI.   RIDAGEYR - DID040 means the year for diabetes to now
+    
+
 
     VII.  RIDAGEYR is age, BPD035 is start year for hypertension
+    
     VIII. RIDAGEYR - BPD035 means the year for hypertension to now
+    
 
 17. redelate useless information, just choose useful imformation
 18. rename this information to better understanding and read
