@@ -22,7 +22,7 @@ I hope  I can learn the fundamental ideas behind Machine Learning
  
 ## Install
  
-This project uses Jupyter Notebook. Go check them out if you don't have them locally installed.
+This project uses 'Jupyter Notebook'. Go check them out if you don't have them locally installed.
 Or, you can use Jupyter Notebook Online provided by Microsoft Azure
 the data(.csv) have already included in this repository, I you want to find the original source, click [here](https://www.kaggle.com/cdc/national-health-and-nutrition-examination-survey?select=questionnaire.csv)
  
